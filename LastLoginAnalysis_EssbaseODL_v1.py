@@ -2,7 +2,7 @@ import re
 import csv
 
 # Open the log file
-with open('C:\\Users\\John French\\Documents\\Essbase_ODL logs (3)\\Essbase logs\\E drive\\ESSBASE_ODL.log', 'r') as file:
+with open('C:\\Essbase_ODL logs\\ESSBASE_ODL.log', 'r') as file:
     log_data = file.readlines()
 
 # Create a dictionary to store the last login date for each user ID
